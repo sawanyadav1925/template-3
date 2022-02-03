@@ -1,0 +1,21 @@
+@media screen and (min-width: 1px) {
+    #header 
+      padding-left: 7%;
+    }
+    nav {
+      overflow: hidden;
+      padding-right: 2%;
+    }
+    nav ul  {
+      list-style: none;
+      float: right;
+    }
+    nav ul li  {
+      display: inline;
+      padding: 10px;
+    }
+    h3 {
+      padding-top: 3%;
+      font-family: Sans-serif, Helvetica, sans-serif;
+      font-size: 15px;
+    }
