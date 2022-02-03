@@ -19,3 +19,66 @@
       font-family: Sans-serif, Helvetica, sans-serif;
       font-size: 15px;
     }
+    #main {
+        margin-top: 1%;
+        
+        overflow: hidden;
+      }
+      #content{
+        background-color: rgb(189, 189, 189);
+        overflow: hidden;
+        
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+      }
+      #content h3 / {
+        width: 35%;
+        margin: 0% 0% 0% 2%;
+        
+      }
+      #content-left-float {
+        float: left;
+        text-align: justify;
+        width: 25%;
+       
+        margin: 0% 0% 5% 2%;
+      }
+      #learn-more  {
+       
+        padding: 4px 7px;
+      }
+      #main-bottom  {
+      
+        display: flex;
+        width: 100%;
+      }
+      .card {
+        text-align: center;
+        width: 25%;
+        margin: 2% 0% 3% 6%;
+       
+      }
+      .card-bg  {
+        background-color: rgb(240, 240, 240);
+        padding: 30% 10%;
+        margin-bottom: 5%;
+        width: 90%;
+      }
+      h5  {
+        margin: 2% 0% 3% 0%;
+        font-size: 18px;
+      }
+      .card-content  {
+        margin: 2% 0% 2% 0%;
+        padding: 1%;
+        width: 90%;
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+      .learn-more  {
+        
+        padding: 4px 7px;
+        font-size: 14px;
+      }
