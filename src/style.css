@@ -82,3 +82,64 @@
         padding: 4px 7px;
         font-size: 14px;
       }
+      #footer  {
+        background-color: rgb(240, 240, 240);
+        text-align: center;
+        padding: 2% 5%;
+      }
+      input  {
+        width: 40%;
+        padding: 8px 10px;
+        box-sizing: border-box;
+      }
+      h4 {
+        margin: 0% 2% 0% 0%;
+        display: inline;
+      }
+      .submit  {
+        background-color: rgb(51, 165, 237);
+        border: none;
+        color: white;
+        padding: 8px 10px;
+        margin-left: 1%;
+        width: 15%;
+        transition-duration: 0.11s;
+      }
+      .submit:hover {
+        background-color: white;
+        color: rgb(51, 165, 237);
+        border: 2px solid rgb(51, 165, 237);
+      }
+      footer  {
+        display: flexbox;
+        overflow: hidden;
+        margin: 0% 7% 0% 7%;
+        font-size: 12px;
+      }
+      #foot-left  {
+        float: left;
+      }
+      #foot-right  {
+        float: right;
+      }
+    }
+    @media screen and (max-width: 511px) {
+      #content h3 {
+        width: 65%;
+      }
+      #content-left-float {
+        width: 75%;
+      }
+      #main-bottom {
+        display: block;
+        margin: auto;
+      }
+      .card {
+        width: 75%;
+      }
+      .card-bg {
+        width: 35%;
+        padding: 20%;
+        margin: auto;
+      }
+    }
